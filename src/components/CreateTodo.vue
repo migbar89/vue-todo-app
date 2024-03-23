@@ -39,9 +39,8 @@ const handleOnSubmit = () => {
       v-if="!shouldDisplayForm"
       @click="shouldDisplayForm = !shouldDisplayForm"
     >
-      Add New
+      Add New - TEST DEV
     </h3>
-    <h1>Esto es Desarrollo</h1>
     <template v-else>
       <form @submit.prevent="handleOnSubmit">
         <div>
